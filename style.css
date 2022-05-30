@@ -1,0 +1,804 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Hind Madurai';
+  color: #1B1B1B;
+}
+
+.main-page__top,
+.main-page__bottom,
+.recommended-goods,
+.another-goods,
+.subscribe,
+.footer {
+  width: 1170px;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 150px;
+}
+
+.main-page__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  height: 45px;
+}
+
+.top__location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #1B1B1B;
+  margin-left: 2px;
+  width: 76px;
+}
+
+.location__image {
+  margin-bottom: 2px;
+}
+
+.location__text {
+  text-align: center;
+}
+
+.top__navigation {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 14px;
+  color: #73747B;
+  width: 504px;
+}
+
+.navigation__nav-item:first-child {
+  margin-left: 5.5px;
+}
+
+.main-page__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom__search-group {
+  display: flex;
+  justify-content: space-between;
+  width: 730px;
+}
+
+.bottom__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.search-group__catalog {
+  width: 131px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: -1px;
+  background: #256BD5;
+}
+
+.catalog__image {
+  width: 20px;
+  height: 13px;
+  margin-right: 11px;
+  margin-left: -2px;
+}
+
+.catalog__text {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.search-group__search {
+  width: 524px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-radius: 5px;
+  align-items: center;
+  background: #F1F3F5;
+}
+
+.search__text {
+  font-size: 16px;
+  color: #ABAEBA;
+}
+
+.bottom__icons-group {
+  width: 186.1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 42.5px;
+  margin-right: 3px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container__offer {
+  display: flex;
+}
+
+.offer__information {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #9FCEF0;
+  width: 650px;
+}
+
+.information__offer-text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FFFFFF;
+  width: 515px;
+  height: 251px;
+}
+
+.offer-text-block__text-about-season,
+.offer-text-block__text-year {
+  margin: 0;
+  letter-spacing: 0.05em;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.offer-text-block__text-about-season {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 140%;
+  margin-bottom: 93.5px;
+  margin-left: 81.5px;
+  width: 230px;
+  height: 77px;
+}
+
+.offer-text-block__text-year {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 67px;
+  margin-top: 24px;
+  margin-left: 80px;
+  width: 166px;
+  height: 94px;
+}
+
+.offer-text-block__offer-text {
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  margin-left: 81px;
+  margin-top: 159px;
+}
+
+.information__new {
+  position: absolute;
+  margin-left: 92px;
+}
+
+.main-container__offer-slide-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 91px;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: -40px;
+}
+
+.offer-slide-pagination__item:first-child {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background: #256BD5;
+}
+
+.offer-slide-pagination__item {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #A5AFBB;
+  border-radius: 10px;
+}
+
+.recommended-goods__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.title__discount {
+  margin-top: -14px;
+  display: flex;
+}
+
+.discount__text {
+  font-weight: 700;
+  font-size: 35px;
+  margin-right: 21px;
+}
+
+.discount__image {
+  margin-bottom: 2px;
+}
+
+.title__view-all {
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #256BD5;
+}
+
+.recommended-goods__goods-list {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  justify-content: space-between;
+}
+
+.another-goods__goods-container {
+  display: grid;
+  grid-template-columns: repeat(2, 270px);
+  justify-content: space-between;
+  align-content: space-between;
+  width: 570px;
+  height: 858px;
+}
+
+.goods-list__xiaomi,
+.goods-list__iphone,
+.goods-list__airpods,
+.goods-list__kindle,
+.goods-container__airpods,
+.goods-container__kindle,
+.goods-container__iphone,
+.goods-container__earrings {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CFD6E2;
+  border-radius: 10px;
+  height: 411px;
+}
+
+.goods-container__airpods,
+.goods-container__earrings {
+  height: 411px;
+}
+
+.goods-container__kindle,
+.goods-container__iphone {
+  height: 412px;
+}
+
+.goods-container__airpods {
+  padding-top: 1px;
+}
+
+.goods-container__kindle {
+  padding-top: 1px;
+}
+
+.goods-list__iphone {
+  height: 476px;
+}
+
+.xiaomi__xiaomi-container,
+.iphone__iphone-container,
+.airpods__airpods-container,
+.kindle__kindle-container,
+.earrings__earrings-container {
+  margin-top: 32px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+}
+
+.iphone__iphone-container {
+  margin-top: 33px;
+}
+
+.xiaomi__xiaomi-container {
+  margin-top: 9px;
+}
+
+.earrings__earrings-container {
+  height: 239px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xiaomi__image {
+  width: 260px;
+  height: 264px;
+}
+
+.iphone__image {
+  width: 159px;
+  height: 215px;
+}
+
+.airpods__image {
+  width: 183px;
+  height: 217px;
+}
+
+.kindle__image {
+  width: 190px;
+  height: 216px;
+}
+
+.earrings-container__image {
+  width: 200px;
+  height: 69px;
+  margin-top: -8px;
+}
+
+.xiaomi__price,
+.xiaomi__product-info,
+.iphone__price,
+.iphone__product-info,
+.airpods__price,
+.airpods__product-info,
+.kindle__price,
+.kindle__product-info,
+.earrings__price,
+.earrings__product-info,
+.reviews__xiaomi-grade,
+.reviews__iphone-grade,
+.reviews__airpods-grade,
+.reviews__kindle-grade,
+.reviews__earrings-grade {
+  margin-left: 15px;
+}
+
+.reviews__xiaomi-grade {
+  margin-top: 3px;
+}
+
+.reviews__iphone-grade {
+  margin-top: -3px;
+}
+
+.reviews__airpods-grade {
+  margin-top: 2px;
+}
+
+.reviews__kindle-grade {
+  margin-top: -5px;
+}
+
+.xiaomi__price,
+.iphone__price,
+.airpods__price,
+.kindle__price,
+.earrings__price,
+.kindle__price-value {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 0 10px 15px;
+}
+
+.xiaomi-grade__image,
+.iphone-grade__image,
+.airpods-grade__image,
+.kindle-grade__image,
+.earrings-grade__image {
+  margin-right: 3.2px;
+}
+
+.airpods-grade__image {
+  margin-top: 1px;
+}
+
+.reviews__text,
+.reviews__text-second {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ABAEBA;
+  margin-right: 15px;
+}
+
+.reviews__text-second {
+  margin-top: -5px;
+}
+
+.reviews-text-second {
+  margin-bottom: 0;
+}
+
+.xiaomi__price {
+  margin-top: -3px;
+}
+
+.iphone__price {
+  margin-top: 24px;
+}
+
+.airpods__price {
+  margin-top: 20px;
+}
+
+.kindle__price {
+  margin-top: 25px;
+}
+
+.iphone__price,
+.kindle__price,
+.earrings__price,
+.kindle__price-value {
+  color: #FD5C80;
+}
+
+.kindle__price-value {
+  margin: 21px 0 14px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.iphone__old-price,
+.kindle__old-price,
+.earrings__old-price,
+.kindle__old-price-value {
+  text-decoration: line-through;
+  font-weight: 400;
+  font-size: 12px;
+  color: #73747B;
+  margin: 0 0 0 13px;
+}
+
+.kindle__old-price {
+  margin-left: 12px;
+}
+
+.kindle__old-price-value {
+  margin-left: 11px;
+}
+
+.kindle__image {
+  margin-left: -1px;
+}
+
+.xiaomi__reviews,
+.iphone__reviews,
+.airpods__reviews,
+.kindle__reviews,
+.earrings__reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 20px;
+}
+
+.iphone__reviews {
+  margin-right: 4px;
+}
+
+.xiaomi__product-info {
+  margin-top: 14px;
+}
+
+.iphone__product-info {
+  margin-top: 12px;
+  margin-bottom: 21px;
+}
+
+.airpods__product-info {
+  margin-top: 15px;
+}
+
+.kindle__product-info {
+  margin-top: 11px;
+}
+
+.iphone__counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.4px;
+}
+
+.counter__minus,
+.counter__plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #1554B2;
+  border-radius: 100%;
+}
+
+.counter__minus {
+  margin-left: 14px;
+}
+
+.counter__plus {
+  background-color: #1554B2;
+  margin-right: 13px;
+}
+
+.counter__result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter__count,
+.counter__go-to-cart {
+  margin: 0 0 0 -4px;
+}
+
+.counter__count {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ABAEBA;
+  margin: 2px 0 3px -5px;
+}
+
+.counter__go-to-cart {
+  font-weight: 500;
+  font-size: 14px;
+  color: #256BD5;
+}
+
+.recommended-goods__goods-slide {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+}
+
+.goods-slide__indicator {
+  display: flex;
+  align-items: center;
+}
+
+.indicator__active-page {
+  border: 1px solid #256BD5;
+  width: 555px;
+}
+
+.indicator__inactive-page {
+  border-top: 1px solid #DDDFE3;
+  width: 505px;
+}
+
+.goods-slide__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 64px;
+}
+
+.buttons__prev,
+.buttons__next {
+  display: flex;
+  align-items: center;
+}
+
+.another-goods {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 119px;
+  height: 858px;
+}
+
+.another-goods__special-offer {
+  border: 1px solid #CFD6E2;
+  border-radius: 10px;
+  width: 569px;
+}
+
+
+.special-offer__offer-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-title__offer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -348px;
+  height: 858px;
+}
+
+.offer-info__text,
+.offer-info__wow-text {
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.offer-info__text {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 61px;
+}
+
+.offer-info__wow-text {
+  font-weight: 900;
+  font-size: 85px;
+  font-family: 'Montserrat';
+  font-style: italic;
+  margin: 28px 0 58px 0;
+}
+
+.reviews__special-grade {
+  display: flex;
+  justify-content: space-between;
+  width: 165px;
+  margin: -2px 0 -1px 0;
+}
+
+.offer-info__reviews {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  height: 30px;
+  margin-top: 12px;
+}
+
+.special-grade__image {
+  width: 27px;
+  height: 27px;
+}
+
+.reviews__special-text {
+  font-size: 16px;
+  color: #91939B;
+  margin: 4px 0 0 0;
+}
+
+.offer-info__product-info {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 30px 0 0 2.3px;
+  line-height: 150%
+}
+
+.offer-info__price {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.offer-info__price {
+  margin: 24px 0 0 0;
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F4F5F6;
+  width: 1440px;
+  height: 166px;
+  margin-top: 160px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__title {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info__text {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 11px 0 0 0;
+  white-space: nowrap;
+}
+
+.subscribe__form {
+  display: flex;
+  justify-content: space-between;
+  width: 401.5px;
+  margin: 10px 0 0 412px;
+}
+
+.form__input {
+  width: 270px;
+  border-bottom: 1px solid #A5AFBB;
+}
+
+.input__text {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 17px 0 15px 15px;
+}
+
+.form__button {
+  width: 96px;
+  height: 52px;
+  background: #256BD5;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 3px;
+}
+
+.button__text {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 60px;
+}
+
+.footer__client-block,
+.footer__partner-block,
+.footer__company-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__client-block {
+  margin-left: 166px;
+}
+
+.footer__partner-block {
+  margin-left: 152px;
+}
+
+.footer__company-block {
+  margin-left: 179px;
+}
+
+.client-block__title,
+.partner-block__title,
+.company-block__title {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+
+.client-block__text,
+.partner-block__text,
+.company-block__text {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
+
+.footer__links-block {
+  width: 68px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 132.5px;
+}
